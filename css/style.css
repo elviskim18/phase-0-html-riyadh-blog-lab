@@ -6,7 +6,8 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  /*background: url(../images/backgrounds/architecture.jpg) center no-repeat;*/
+  background-image: linear-gradient(grey,rgb(142, 228, 92));
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -53,10 +54,12 @@ img {
 
 p {
   font-size: 1em;
+  font-family: 'Gabriela', serif;
+  
 }
 
 a {
-  color: black;
+  color: orangered;
   text-decoration: none;
 }
 
